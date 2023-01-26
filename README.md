@@ -6,7 +6,7 @@ Cast:
   Sky M. -       The Scribe
   Matthew M. -   The GitMaster
   Andwele S. -   The New Guy
-Link: 
+Link: https://github.com/Brave-Lizard/justJam
 Work to be done:
   Formulate the needed modules
   Create the story
