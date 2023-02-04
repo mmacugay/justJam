@@ -2,25 +2,41 @@
   <p>Pitch In the old century of the dark ages, on the coast of Italy, nothing is as it should be. The land is infested with living jam, and dotted by landmarks which should not exist. The player must leave the mainland of Italy and retreat to the paradise land of Elba.</p>
   <p>Cast: </p>
   <table>
+    <th>
+      <td>Name</td>
+      <td>Role</td>
+      <td>Discord</td>
+      <td>Project Board</td>
+    </th>
     <tr>
       <td>Preston G.</td>
       <td>The Product Owner</td>
+      <td>pmoney</td>
+      <td></td>
     </tr>
     <tr>
       <td>Caspen H.</td>
       <td>The Scrum Master</td>
+      <td>potatochip209</td>
+      <td></td>
     </tr>
     <tr>
       <td>Sky M.</td>
       <td>The Scribe</td>
+      <td>sky/eclipse</td>
+      <td><a href="https://docs.google.com/document/d/1_iYerXRa6n7bXlK7XfFiZasRQsfAIyvG5R8q79LSYyo/edit?usp=sharing">Game Jam Brainstorm document</a></td>
     </tr>
     <tr>
       <td>Matthew M.</td>
       <td>The GitMaster</td>
+      <td>Matt32644</td>
+      <td><a href="https://github.com/users/Brave-Lizard/projects/2/views/1">Project Scrum Zone</a></td>
     </tr>
     <tr>
       <td>Andwele S.</td>
       <td>The New Guy</td>
+      <td>a21splash</td>
+      <td></td>
     </tr>
   </table>
 
