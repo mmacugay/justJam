@@ -6,36 +6,56 @@
       <td>Role</td>
       <td>Discord</td>
       <td>Project Board</td>
+      <td>Work Days</td>
     </th>
     <tr>
       <td>Preston G.</td>
       <td>The Product Owner</td>
       <td>pmoney</td>
       <td></td>
+      <td>
+        <ul>
+          <li>Tuesday</li>
+          <li>Thursday</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td>Caspen H.</td>
       <td>The Scrum Master</td>
       <td>potatochip209</td>
       <td></td>
+      <td>Unset</td>
     </tr>
     <tr>
       <td>Sky M.</td>
       <td>The Scribe</td>
       <td>sky/eclipse</td>
       <td><a href="https://docs.google.com/document/d/1_iYerXRa6n7bXlK7XfFiZasRQsfAIyvG5R8q79LSYyo/edit?usp=sharing">Game Jam Brainstorm document</a></td>
+      <td>Unset</td>
     </tr>
     <tr>
       <td>Matthew M.</td>
       <td>The GitMaster</td>
       <td>Matt32644</td>
       <td><a href="https://github.com/users/Brave-Lizard/projects/2/views/1">Project Scrum Zone</a></td>
+      <td>
+        <ul>
+          <li>Tuesday</li>
+          <li>Wednesday</li>
+          <li>Thursday</li>
+          <li>Friday</li>
+          <li>Saturday</li>
+          <li>Sunday</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td>Andwele S.</td>
       <td>The New Guy</td>
       <td>a21splash</td>
       <td></td>
+      <td>Unset</td>
     </tr>
   </table>
   <p></p>
