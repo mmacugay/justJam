@@ -1,3 +1,9 @@
+<style>
+  p {
+    background-color: #fff;
+    color: #000;
+    indent: 5px;
+  }
 <h1>Just Jam</h1>
   <p>Pitch In the old century of the dark ages, on the coast of Italy, nothing is as it should be. The land is infested with living jam, and dotted by landmarks which should not exist. The player must leave the mainland of Italy and retreat to the paradise land of Elba.</p>
   <p>Cast: </p>
@@ -38,6 +44,12 @@
       <td></td>
     </tr>
   </table>
+  <p></p>
+  <table>
+    <th>Work Breakdown
+      <td>Due Date</td>
+      <td>Status</td>
+    </th>
 
 
 
