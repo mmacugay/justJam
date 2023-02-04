@@ -2,7 +2,7 @@
   <p>Pitch In the old century of the dark ages, on the coast of Italy, nothing is as it should be. The land is infested with living jam, and dotted by landmarks which should not exist. The player must leave the mainland of Italy and retreat to the paradise land of Elba.</p>
   <p>Cast: </p>
   <table>
-    <th>
+    <th>Name
       <td>Role</td>
       <td>Discord</td>
       <td>Project Board</td>
