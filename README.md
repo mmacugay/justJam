@@ -2,7 +2,6 @@
   p {
     background-color: #fff;
     color: #000;
-    text-indent: 5px;
   }
 </style>
 <h1>Just Jam</h1>
