@@ -1,9 +1,3 @@
-<style>
-  p {
-    background-color: #fff;
-    color: #000;
-  }
-</style>
 <h1>Just Jam</h1>
   <p>Pitch In the old century of the dark ages, on the coast of Italy, nothing is as it should be. The land is infested with living jam, and dotted by landmarks which should not exist. The player must leave the mainland of Italy and retreat to the paradise land of Elba.</p>
   <p>Cast: </p>
@@ -50,6 +44,66 @@
       <td>Due Date</td>
       <td>Status</td>
     </th>
+    <tr>
+      <td>Work allocation</td>
+      <td>29 January 2023</td>
+      <td>Finished</td>
+    </tr>
+    <tr>
+      <td>Team Charter and Board</td>
+      <td>29 January 2023</td>
+      <td>Finished</td>
+    </tr>
+    <tr>
+      <td>Requirements Log</td>
+      <td>29 January 2023</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>Risks Management</td>
+      <td>29 January 2023</td>
+      <td>In Progress</td>
+    <tr>
+      <td>Character Creation</td>
+      <td>29 January 2023</td>
+      <td>Finished</td>
+    </tr>
+    <tr>
+      <td>Jam Story</td>
+      <td>4 February 2023</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>Combat System</td>
+      <td>5 February 2023</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>Conversation System</td>
+      <td>7 February 2023</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>Display Assets</td>
+      <td>7 February 2023</td>
+      <td>Ready</td>
+    </tr>
+    <tr>
+      <td>Display System</td>
+      <td>9 February 2023</td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>Game Locations</td>
+      <td>9 February 2023</td>
+      <td>Ready</td>
+    </tr>
+    <tr>
+      <td>Save and Load System</td>
+      <td>12 February 2023</td>
+      <td>Not Ready</td>
+    </tr>
+  </table>
 
 
 
