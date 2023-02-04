@@ -3,7 +3,6 @@
   <p>Cast: </p>
   <table>
     <th>
-      <td>Name</td>
       <td>Role</td>
       <td>Discord</td>
       <td>Project Board</td>
