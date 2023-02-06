@@ -1,6 +1,6 @@
 <h1>Just Jam</h1>
   <p>Pitch In the old century of the dark ages, on the coast of Italy, nothing is as it should be. The land is infested with living jam, and dotted by landmarks which should not exist. The player must leave the mainland of Italy and retreat to the paradise land of Elba.</p>
-  <p>Cast: </p>
+  <h2>Cast: </h2>
   <table>
     <th>Name
       <td>Role</td>
@@ -59,6 +59,7 @@
     </tr>
   </table>
   <p></p>
+  <h2>Work</h2>
   <table>
     <th>Work Breakdown
       <td>Due Date</td>
@@ -124,6 +125,117 @@
       <td>Not Ready</td>
     </tr>
   </table>
+  <h2>Risks and Management</h2>
+  <table>Risk Likelihood
+    <th>
+      <td>Asset</td>
+      <td>Risk Rescription</td>
+      <td>Risk Severity</td>
+      <td>Internal Impact</td>
+      <td>User Impact</td>
+      <td>Trigger</td>
+      <td>Mitigations / Remedies</td>
+    </th>
+    <tr>
+      <td>Improbable</td>
+      <td>Tools</td>
+      <td>External</td>
+      <td>No Access to Programming Tools</td>
+      <td>Undesirable</td>
+      <td>Medium</td>
+      <td>Low</td>
+      <td>Unprepared Workforce</td>
+      <td>Help download the software</td>
+    </tr>
+    <tr>
+      <td>Improbable</td>
+      <td>Technology</td>
+      <td>External</td>
+      <td>No access to programming language</td>
+      <td>Undesirable</td>
+      <td>Medium</td>
+      <td>Low</td>
+      <td>Unprepared Workforce</td>
+      <td>Help download the language</td>
+    </tr>
+    <tr>
+      <td>Possible</td>
+      <td>People</td>
+      <td>Insider</td>
+      <td>Improperly divided types of task</td>
+      <td>Undesirable</td>
+      <td>Low</td>
+      <td>Medium</td>
+      <td>Unorganized Organizer</td>
+      <td>Reorganize the organization</td>
+    </tr>
+    <tr>
+      <td>Possible</td>
+      <td>Requirements</td>
+      <td>Insider</td>
+      <td>Not reaching the goals of the module</td>
+      <td>Intolerable</td>
+      <td>Extreme</td>
+      <td>Extreme</td>
+      <td>Mismanaged Workforce</td>
+      <td>Reevaluate the goal and redistribute tasks</td>
+    </tr>
+    <tr>
+      <td>Possible</td>
+      <td>People</td>
+      <td>Trusted Insider</td>
+      <td>Uncooperative Workforce</td>
+      <td>Undesirable</td>
+      <td>Extreme</td>
+      <td>High</td>
+      <td>Unwilling Workforce</td>
+      <td>Redistribute tasks</td>
+    </tr>
+    <tr>
+      <td>Probable</td>
+      <td>Estimation</td>
+      <td>Insider</td>
+      <td>No time to complete task</td>
+      <td>Intolerable</td>
+      <td>Extreme</td>
+      <td>Extreme</td>
+      <td>Mismanagerd Workforce</td>
+      <td>Add help to the task</td>
+    </tr>
+    <tr>
+      <td>Probable</td>
+      <td>Estimation</td>
+      <td>Trusted Insider</td>
+      <td>Improper estimation of work</td>
+      <td>Tolerable</td>
+      <td>Low</td>
+      <td>Low</td>
+      <td>Unorganixzed Organizer</td>
+      <td>Reevaluate Goals</td>
+    </tr>
+    <tr>
+      <td>Probable</td>
+      <td>Organizational</td>
+      <td>Insider</td>
+      <td>Poorly divided work on workforce</td>
+      <td>Tolerable</td>
+      <td>Low</td>
+      <td>Low</td>
+      <td>Unorganized Organizer</td>
+      <td>Redistribute tasks</td>
+    </tr>
+    <tr>
+      <td>Probable</td>
+      <td>Organizational</td>
+      <td>Insider</td>
+      <td>Hard to understand documentation</td>
+      <td>Tolerable</td>
+      <td>Low</td>
+      <td>Medium</td>
+      <td>Rushed Documentation</td>
+      <td>Spend more time on the documentation</td>
+    </tr>
+
 
 
 
