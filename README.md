@@ -235,6 +235,7 @@
       <td>Rushed Documentation</td>
       <td>Spend more time on the documentation</td>
     </tr>
+  </table>
 
 
 
