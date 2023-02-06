@@ -238,7 +238,22 @@
   </table>
   <p></p>
   <h2>User Stories<h2>
-  <p><a href="userStories.docx">Click Here</a></p>
+  <table>
+    <th>User
+      <td>Story</td>
+      <td>Solution</td>
+    </th>
+    <tr>
+      <td>User Story # 1 - Visual Novel Player that loves the story</td>
+      <td>Playing through JustJam, I've been able to meet some characters throughout this ridiculous world. It's funny and engaging, but some characters have obviously been given more effort than others. There are multiple characters that I would like to interact with more, but the story ends without getting to do anything.</td>
+      <td>Solution: Create in-depth interactions between characters.</td>
+    </tr>
+    <tr>
+      <td>User Story # 2 - RPG Player that likes customization</td>
+      <td>When you start JustJam, you get to choose a name for your character, but that's it. The original look is always the same, whether a boy or a girl and a farmer or a time traveler. Obviously this needs some work, and the story should be more focused on the main character.</td>
+      <td>Solution: Create character customization.</td>
+    </tr>
+  </table>
 
 
 
@@ -258,7 +273,7 @@
 
 
 
-# justJam
+# justJam (old readMe)
 Pitch: In the old century of the dark ages, on the coast of Italy, the player must make it out of the jam-infested Italy to the paradise land of Elba.
 Cast:
   Preston G. -   The Product Owner
