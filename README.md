@@ -236,6 +236,9 @@
       <td>Spend more time on the documentation</td>
     </tr>
   </table>
+  <p></p>
+  <h2>User Stories<h2>
+  <p><a href="userStories.docx">Click Here</a></p>
 
 
 
