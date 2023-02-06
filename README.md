@@ -14,8 +14,6 @@
       <td>pmoney</td>
       <td></td>
       <td>Unset</td>
-
-      </td>
     </tr>
     <tr>
       <td>Caspen H.</td>
