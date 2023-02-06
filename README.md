@@ -13,19 +13,20 @@
       <td>The Product Owner</td>
       <td>pmoney</td>
       <td></td>
-      <td>
-        <ul>
-          <li>Tuesday</li>
-          <li>Thursday</li>
-        </ul>
+      <td>Unset</td>
+
       </td>
     </tr>
     <tr>
       <td>Caspen H.</td>
       <td>The Scrum Master</td>
       <td>potatochip209</td>
-      <td></td>
-      <td>Unset</td>
+      <td>
+        <ul>
+          <li>Tuesday</li>
+          <li>Thursday</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td>Sky M.</td>
