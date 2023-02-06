@@ -13,12 +13,13 @@
       <td>The Product Owner</td>
       <td>pmoney</td>
       <td></td>
-      <td>Unset</td>
+      <td>Flexible</td>
     </tr>
     <tr>
       <td>Caspen H.</td>
       <td>The Scrum Master</td>
       <td>potatochip209</td>
+      <td></td>
       <td>
         <ul>
           <li>Tuesday</li>
@@ -31,7 +32,7 @@
       <td>The Scribe</td>
       <td>sky/eclipse</td>
       <td><a href="https://docs.google.com/document/d/1_iYerXRa6n7bXlK7XfFiZasRQsfAIyvG5R8q79LSYyo/edit?usp=sharing">Game Jam Brainstorm document</a></td>
-      <td>Unset</td>
+      <td>Flexible</td>
     </tr>
     <tr>
       <td>Matthew M.</td>
@@ -54,7 +55,7 @@
       <td>The New Guy</td>
       <td>a21splash</td>
       <td></td>
-      <td>Unset</td>
+      <td>Flexible</td>
     </tr>
   </table>
   <p></p>
