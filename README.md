@@ -19,7 +19,7 @@
       <td>Caspen H.</td>
       <td>The Scrum Master</td>
       <td>potatochip209</td>
-      <td></td>
+      <td><a href="https://github.com/users/Brave-Lizard/projects/2/views/1">Project Scrum Zone</a></td>
       <td>
         <ul>
           <li>Tuesday</li>
@@ -38,7 +38,7 @@
       <td>Matthew M.</td>
       <td>The GitMaster</td>
       <td>Matt32644</td>
-      <td><a href="https://github.com/users/Brave-Lizard/projects/2/views/1">Project Scrum Zone</a></td>
+      <td></td>
       <td>
         <ul>
           <li>Tuesday</li>
