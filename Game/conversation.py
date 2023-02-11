@@ -1,3 +1,4 @@
+from tkinter import *
 class Speak:
     def __init__ (self):
         self.__stage = 0
@@ -53,11 +54,16 @@ class Speak:
         return responses[self.__stage * 5 + self.__option]
 
 def talk(character, wordsList):
+    root = Tk()
+    root.geometry('100x100')
     WRYY = Speak()
-    print(character.getName())
+    w = Label(root, text = character.getName(), font = "50")
+    w.pack()
     print(character.getRelationship())
-    WRYY.setOption(input('0-4: '))
-    print(WRYY.getResponse(character, wordsList))
+    what = int(input('0-4: '))
+    WRYY.setOption(what)
+    msg = Message(root, text = WRYY.getResponse(character, wordsList))
+    msg.pack()
     print(character.getRelationship())
           
     
