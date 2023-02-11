@@ -55,16 +55,29 @@ class Speak:
 
 def talk(character, wordsList):
     root = Tk()
-    root.geometry('100x100')
+    root.geometry('300x150')
+    bottomframe = Frame(root)
+    bottomframe.pack( side = BOTTOM)
     WRYY = Speak()
-    w = Label(root, text = character.getName(), font = "50")
-    w.pack()
-    print(character.getRelationship())
-    what = int(input('0-4: '))
-    WRYY.setOption(what)
+    name = Label(root, text = character.getName(), font = "50")
+    name.pack()
+    c1 = Button(bottomframe, text = wordsList[0],
+                command = WRYY.setOption(0))
+    c1.pack( side = LEFT)
+    c2 = Button(bottomframe, text = wordsList[1],
+                command = WRYY.setOption(1))
+    c2.pack( side = LEFT)
+    c3 = Button(bottomframe, text = wordsList[2],
+                command = WRYY.setOption(2))
+    c3.pack( side = LEFT)
+    c4 = Button(bottomframe, text = wordsList[3],
+                command = WRYY.setOption(3))
+    c4.pack( side = LEFT)
+    c5 = Button(bottomframe, text = wordsList[4],
+                command = WRYY.setOption(4))
+    c5.pack( side = LEFT)
     msg = Message(root, text = WRYY.getResponse(character, wordsList))
     msg.pack()
-    print(character.getRelationship())
           
     
     
