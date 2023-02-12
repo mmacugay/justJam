@@ -57,7 +57,13 @@ def story():
     beatrix = Character("Beatrix", 5, 0, 6)
     caputia = Character("Caputia", 100, 1, 100)
     pope = Character("The Pope", 50, 1, 50)
-    words = ["nothing","happy","grr","wahh","hmph"]
-    conversation.talk(ambro, words)
+    words = open(r'C:\Users\Matthew Macugay\Documents\GitHub\justJam\Game\characterLines\juliet.txt', 'r').readlines()
+    count = 0
+    wordsList = [[]*12]*6
+    for stuff in words:
+        wordsList[count] = stuff.split('|')
+        count += 1
+    conversation.talk(juliet, wordsList)
+    words = close()
 
 story()

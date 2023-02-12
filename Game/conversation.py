@@ -3,6 +3,7 @@ class Speak:
     def __init__ (self):
         self.__stage = 0
         self.__option = 0
+        self.__option2 = 0
     def setStage (self, stage):
         self.__stage = stage
     def getStage (self):
@@ -51,33 +52,38 @@ class Speak:
             character.addRelationship(1)
     def getResponse (self, character, responses):
         self.likeIt(character)
-        return responses[self.__stage * 5 + self.__option]
+        self.__option2 = self.__option
+        self.__option = 2
+        return responses[self.__option][7 + self.__option2]
+    def getScene (self, character, responses):
+        return responses[character.getHistory()*6][0]
+    def getChoices1 (self, character, responses):
+        choices = [responses[1 + 6*character.getHistory()][0], responses[2 + 6*character.getHistory()][0], responses[3 + 6*character.getHistory()][0], responses[4 + 6*character.getHistory()][0], responses[5 + 6*character.getHistory()][0]]
+        return choices
 
 def talk(character, wordsList):
-    root = Tk()
-    root.geometry('300x150')
-    bottomframe = Frame(root)
-    bottomframe.pack( side = BOTTOM)
-    WRYY = Speak()
-    name = Label(root, text = character.getName(), font = "50")
-    name.pack()
-    c1 = Button(bottomframe, text = wordsList[0],
-                command = WRYY.setOption(0))
-    c1.pack( side = LEFT)
-    c2 = Button(bottomframe, text = wordsList[1],
-                command = WRYY.setOption(1))
-    c2.pack( side = LEFT)
-    c3 = Button(bottomframe, text = wordsList[2],
-                command = WRYY.setOption(2))
-    c3.pack( side = LEFT)
-    c4 = Button(bottomframe, text = wordsList[3],
-                command = WRYY.setOption(3))
-    c4.pack( side = LEFT)
-    c5 = Button(bottomframe, text = wordsList[4],
-                command = WRYY.setOption(4))
-    c5.pack( side = LEFT)
-    msg = Message(root, text = WRYY.getResponse(character, wordsList))
-    msg.pack()
-          
-    
-    
+    juli = Speak()
+    topic = juli.getScene(character, wordsList)
+    relationshipBefore = character.getRelationship()
+    choices = juli.getChoices1(character, wordsList)
+    makeChoice(juli, choices)
+    response = juli.getResponse(character, wordsList)
+    relationshipAfter = character.getRelationship()
+    display(topic, relationshipBefore, response, relationshipAfter)
+
+def display(topic, relBef, response, relAft):
+    print(topic)
+    print(relBef)
+    print(response)
+    print(relAft)
+
+def choice(choices):
+    count = 0
+    for option in choices:
+        print(choices[count])
+        count += 1
+    choice = int(input('0-4: '))
+    return choice
+
+def makeChoice(conversation, choices):
+    conversation.setOption(choice(choices))

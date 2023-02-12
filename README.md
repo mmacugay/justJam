@@ -237,6 +237,8 @@
     </tr>
   </table>
   <p></p>
+  <h2>Requirements</h2>
+  <img src="mainDiagram.jpeg" height=1042 width=1352>
   <h2>User Stories<h2>
   <table>
     <th>User
