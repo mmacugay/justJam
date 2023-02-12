@@ -238,7 +238,7 @@
   </table>
   <p></p>
   <h2>Requirements</h2>
-  <img src="mainDiagram.jpeg" height=1042 width=1352>
+  <p><a href="https://github.com/Brave-Lizard/justJam/blob/Pro-Gramming/StaffBackrooms/mainDiagram.jpg">Main Diagram</a></p>
   <h2>User Stories<h2>
   <table>
     <th>User
