@@ -53,7 +53,6 @@ class Speak:
     def getResponse (self, character, responses):
         self.likeIt(character)
         self.__option2 = self.__option
-        self.__option = 2
         return responses[self.__option][7 + self.__option2]
     def getScene (self, character, responses):
         return responses[character.getHistory()*6][0]
