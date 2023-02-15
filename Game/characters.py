@@ -59,11 +59,14 @@ def story():
     pope = Character("The Pope", 50, 1, 50)
     words = open(r'C:\Users\Matthew Macugay\Documents\GitHub\justJam\Game\characterLines\juliet.txt', 'r').readlines()
     count = 0
-    wordsList = [[]*12]*6
+    for line in words:
+        count += 1
+    wordsList = [[]*12]*count
+    count = 0
     for stuff in words:
         wordsList[count] = stuff.split('|')
         count += 1
-    conversation.talk(juliet, wordsList)
-    words = close()
+    for conversations in range (0, 1):
+        conversation.talk(juliet, wordsList)
 
 story()

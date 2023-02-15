@@ -52,26 +52,65 @@ class Speak:
             character.addRelationship(1)
     def getResponse (self, character, responses):
         self.likeIt(character)
-        self.__option2 = self.__option
-        return responses[self.__option][7 + self.__option2]
+        if self.__stage == 0:
+            self.__option2 = self.__option
+            option = self.__option
+            farness = 1
+        else:
+            option = self.__option2
+            farness = self.__option + 7
+        return responses[option + character.getHistory()*6+1][farness]
     def getScene (self, character, responses):
-        return responses[character.getHistory()*6][0]
-    def getChoices1 (self, character, responses):
-        choices = [responses[1 + 6*character.getHistory()][0], responses[2 + 6*character.getHistory()][0], responses[3 + 6*character.getHistory()][0], responses[4 + 6*character.getHistory()][0], responses[5 + 6*character.getHistory()][0]]
+        if character.getHistory() == 0:
+            response = responses[0][0]
+        else:
+            response = responses[character.getHistory()*6][0]
+        return response
+    def getChoices (self, character, responses):
+        if self.__stage == 0:
+            choices = []
+            for slots in range(0,5):
+                choices.append(responses[slots + character.getHistory()*6+1][0])
+        else:
+            choices = []
+            for slots in range(0,5):
+                choices.append(responses[self.__option2 + character.getHistory()*6+1][slots + 2])
         return choices
 
 def talk(character, wordsList):
+    #Conversation
     juli = Speak()
     topic = juli.getScene(character, wordsList)
+    print(topic)
     relationshipBefore = character.getRelationship()
-    choices = juli.getChoices1(character, wordsList)
+    choices = juli.getChoices(character, wordsList)
     makeChoice(juli, choices)
     response = juli.getResponse(character, wordsList)
+    juli.setStage(juli.getStage()+1)
     relationshipAfter = character.getRelationship()
-    display(topic, relationshipBefore, response, relationshipAfter)
+    display(relationshipBefore, response, relationshipAfter)
 
-def display(topic, relBef, response, relAft):
-    print(topic)
+    relationshipBefore = character.getRelationship()
+    choices = juli.getChoices(character, wordsList)
+    makeChoice(juli, choices)
+    response = juli.getResponse(character, wordsList)
+    juli.setStage(0)
+    relationshipAfter = character.getRelationship()
+    display(relationshipBefore, response, relationshipAfter)
+    character.addHistory(1)
+
+    #Stop! This is conversation 2!
+
+    #topic = juli.getScene(character, wordsList)
+    #print(topic)
+    #relationshipBefore = character.getRelationship()
+    #choices = juli.getChoices(character, wordsList)
+    #makeChoice(juli, choices)
+    #response = juli.getResponse(character, wordsList)
+    #juli.setStage(juli.getStage()+1)
+    #display(relationshipBefore, response, relationshipAfter)
+
+def display(relBef, response, relAft):
     print(relBef)
     print(response)
     print(relAft)
@@ -81,7 +120,8 @@ def choice(choices):
     for option in choices:
         print(choices[count])
         count += 1
-    choice = int(input('0-4: '))
+    choice = int(input('1-5: '))
+    choice -= 1
     return choice
 
 def makeChoice(conversation, choices):
