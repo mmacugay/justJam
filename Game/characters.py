@@ -5,9 +5,8 @@ class Character:
         self.__jamPotency = jamPotency
         self.__personality = personality
         self.__relationship = relationship
+        self.__history = 0
         self.__items = ['spoon', 'jar']
-        self.__response = ['']*30
-        self.__choice = 0
         self.__location = 0
     def setName (self, name):
         self.__name = name
@@ -24,19 +23,19 @@ class Character:
     def setRelationship (self, relationship):
         self.__relationship = relationship
     def addRelationship (self, relationship):
-        self.__relationsihp += relationship
+        self.__relationship += relationship
     def getRelationship (self):
         return self.__relationship
+    def addHistory (self, history):
+        self.__history += history
+    def getHistory (self):
+        return self.__history
     def addItem (self, item):
         self.__items += item
     def removeItem (self, item):
         for things in self.__items:
             if things == item:
                 self.__items[things] = ''
-    def createResponse(self, sceneNumber, sceneText):
-        self.response[sceneNumber] = sceneText[self.choice]
-    def createOption(self, option):
-        self.choice = option
     def isHere(self):
         self.location = 1
     def isNotHere(self):
@@ -58,6 +57,16 @@ def story():
     beatrix = Character("Beatrix", 5, 0, 6)
     caputia = Character("Caputia", 100, 1, 100)
     pope = Character("The Pope", 50, 1, 50)
-    conversation.talk(ambro, 'Bob is so cool')
+    words = open(r'C:\Users\Matthew Macugay\Documents\GitHub\justJam\Game\characterLines\juliet.txt', 'r').readlines()
+    count = 0
+    for line in words:
+        count += 1
+    wordsList = [[]*12]*count
+    count = 0
+    for stuff in words:
+        wordsList[count] = stuff.split('|')
+        count += 1
+    for conversations in range (0, 1):
+        conversation.talk(juliet, wordsList)
 
 story()
