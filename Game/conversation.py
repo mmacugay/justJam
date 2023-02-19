@@ -76,8 +76,9 @@ class Speak:
                 choices.append(responses[self.__option2 + character.getHistory()*6+1][slots + 2])
         return choices
 
-def talk(character, wordsList):
+def talk(character):
     #Conversation
+    wordsList = character.wordTake()
     juli = Speak()
     topic = juli.getScene(character, wordsList)
     print(topic)

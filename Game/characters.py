@@ -1,6 +1,6 @@
 import conversation
 class Character:
-    def __init__ (self, name, jamPotency, personality, relationship):
+    def __init__ (self, name, jamPotency, personality, relationship, words):
         self.__name = name
         self.__jamPotency = jamPotency
         self.__personality = personality
@@ -8,6 +8,7 @@ class Character:
         self.__history = 0
         self.__items = ['spoon', 'jar']
         self.__location = 0
+        self.__words = words
     def setName (self, name):
         self.__name = name
     def getName (self):
@@ -40,33 +41,37 @@ class Character:
         self.location = 1
     def isNotHere(self):
         self.location = 0
+    def wordTake(self):
+        words = self.__words
+        count = 0
+        for line in words:
+            count += 1
+        wordsList = [[]*12]*count
+        count = 0
+        for stuff in words:
+            wordsList[count] = stuff.split('|')
+            count += 1
+        return wordsList
             
 def story():
-    victorino = Character("Victorino", 2, 0, 10)
-    alphonso = Character("Alphonso", 2, 2, 10)
-    juliet = Character("Juliet", 1, 1, 100)
-    giorno = Character("Giorno", 10, 1, 0)
-    bucciarati = Character("Bucciarati", 10, 0, 0)
-    mista = Character("Mista", 10, 2, 0)
-    king = Character("Konig Reich", 13, 2, 5)
-    aldo = Character("Aldo", 5, 0, 10)
-    ambro = Character("Ambro", 5, 2, 5)
-    russo = Character("Russo", 7, 0, 5)
-    julius = Character("Julius Caesar", 15, 0, 0)
-    idalia = Character("Idalia", 1, 1, 15)
-    beatrix = Character("Beatrix", 5, 0, 6)
-    caputia = Character("Caputia", 100, 1, 100)
-    pope = Character("The Pope", 50, 1, 50)
-    words = open(r'characterLines\juliet.txt', 'r').readlines()
-    count = 0
-    for line in words:
-        count += 1
-    wordsList = [[]*12]*count
-    count = 0
-    for stuff in words:
-        wordsList[count] = stuff.split('|')
-        count += 1
-    for conversations in range (0, 1):
-        conversation.talk(juliet, wordsList)
+    #victorino = Character("Victorino", 2, 0, 10)
+    #alphonso = Character("Alphonso", 2, 2, 10)
+    julietText = open(r'characterLines\juliet.txt', 'r').readlines()
+    juliet = Character("Juliet", 1, 1, 100, julietText)
+    #king = Character("Konig Reich", 13, 2, 5)
+    #ambro = Character("Ambro", 5, 2, 5)
+    #julius = Character("Julius Caesar", 15, 0, 0)
+    caputiaText = open(r'characterLines\caputia.txt', 'r').readlines()
+    caputia = Character("Caputia", 100, 1, 100, caputiaText)
+    #pope = Character("The Pope", 50, 1, 50)
+
+
+    conversation.talk(juliet)
+    print('you beat bullies up')
+    conversation.talk(juliet)
+    print('you go to Caputia')
+    conversation.talk(caputia)
+
+
 
 story()
