@@ -83,7 +83,7 @@
     <tr>
       <td>Risks Management</td>
       <td>29 January 2023</td>
-      <td>In Progress</td>
+      <td>Finished</td>
     <tr>
       <td>Character Creation</td>
       <td>29 January 2023</td>
@@ -102,22 +102,22 @@
     <tr>
       <td>Conversation System</td>
       <td>7 February 2023</td>
-      <td>In Progress</td>
+      <td>Finished</td>
     </tr>
     <tr>
       <td>Display Assets</td>
       <td>7 February 2023</td>
-      <td>Ready</td>
+      <td>Finished</td>
     </tr>
     <tr>
       <td>Display System</td>
       <td>9 February 2023</td>
-      <td>In Progress</td>
+      <td>Sidelined</td>
     </tr>
     <tr>
       <td>Game Locations</td>
       <td>9 February 2023</td>
-      <td>Ready</td>
+      <td>In progress</td>
     </tr>
     <tr>
       <td>Save and Load System</td>
@@ -243,60 +243,13 @@
   <table>
     <th>User
       <td>Story</td>
-      <td>Solution</td>
     </th>
     <tr>
       <td>User Story # 1 - Visual Novel Player that loves the story</td>
       <td>Playing through JustJam, I've been able to meet some characters throughout this ridiculous world. It's funny and engaging, but some characters have obviously been given more effort than others. There are multiple characters that I would like to interact with more, but the story ends without getting to do anything.</td>
-      <td>Solution: Create in-depth interactions between characters.</td>
     </tr>
     <tr>
       <td>User Story # 2 - RPG Player that likes customization</td>
       <td>When you start JustJam, you get to choose a name for your character, but that's it. The original look is always the same, whether a boy or a girl and a farmer or a time traveler. Obviously this needs some work, and the story should be more focused on the main character.</td>
-      <td>Solution: Create character customization.</td>
     </tr>
   </table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# justJam (old readMe)
-Pitch: In the old century of the dark ages, on the coast of Italy, the player must make it out of the jam-infested Italy to the paradise land of Elba.
-Cast:
-  Preston G. -   The Product Owner
-  Caspen H. -    The Scrum Master
-  Sky M. -       The Scribe
-  Matthew M. -   The GitMaster
-  Andwele S. -   The New Guy
-Link: https://github.com/Brave-Lizard/justJam
-Work to be done:
-  Formulate the needed modules
-  Create the story
-  Create the variables
-  Test
-  Figure out what's going wrong (because there will be something wrong)
-  Test again
-  Figure out again
-  Test
-  Turn it in and hope
- Schedule:
-  Plan Week
-  Story and art creation
-  Module Creation
-  Variable and formula creation
-  Make it work day
