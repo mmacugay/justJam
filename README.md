@@ -112,7 +112,7 @@
     <tr>
       <td>Display System</td>
       <td>9 February 2023</td>
-      <td>Sidelined</td>
+      <td>In Progress</td>
     </tr>
     <tr>
       <td>Game Locations</td>
