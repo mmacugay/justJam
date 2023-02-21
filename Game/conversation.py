@@ -1,3 +1,4 @@
+from tkinter import *
 class Speak:
     def __init__ (self):
         self.__stage = 0
@@ -78,8 +79,8 @@ class Speak:
 
 def talk(character):
     #Conversation
-    wordsList = character.wordTake()
     juli = Speak()
+    wordsList = character.wordTake()
     topic = juli.getScene(character, wordsList)
     print(topic)
     relationshipBefore = character.getRelationship()
