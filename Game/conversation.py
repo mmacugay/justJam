@@ -1,4 +1,3 @@
-from tkinter import *
 class Speak:
     def __init__ (self):
         self.__stage = 0
@@ -112,9 +111,9 @@ def talk(character):
     #display(relationshipBefore, response, relationshipAfter)
 
 def display(relBef, response, relAft):
-    print(relBef)
+    print("Current Relationship: " + str(relBef))
     print(response)
-    print(relAft)
+    print("Current Relationship: " + str(relAft))
 
 def choice(choices):
     count = 0
