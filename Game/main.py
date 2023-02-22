@@ -53,7 +53,7 @@ def story():
     print('\n\n\n\n')
     conversation.talk(juliet)
     print('\n\n\n\n')
-    print("You continue your adventure with Juliet and Alphonso, and as soon as the castle is on the horizon, the three of you meet a new person. This man dresses in flashy clothing, not too different from that of nobles, but colored brown and decorated with dirt. He has a large hat on his head, and two Big Irons on his hip. Just as the two lumps of iron look, he calls them Big Irons as well. Alphonso is instantly impressed by his looks, and dons the look of a child as he interacts with him. Alphonso confesses that he has a love for Wile West shows.")
+    print("You continue your adventure with Juliet and Alphonso, and as soon as the castle is on the horizon, the three of you meet a new person. This man dresses in flashy clothing, not too different from that of nobles, but colored brown and decorated with dirt. He has a large hat on his head, and two Big Irons on his hip. Just as the two lumps of iron look, he calls them Big Irons as well. Alphonso is instantly impressed by his looks, and dons the look of a child as he interacts with him. Alphonso confesses that he has a love for Wild West shows.")
     print('\n\n\n\n')
     conversation.talk(juliet)
     print('\n\n\n\n')
