@@ -24,6 +24,7 @@
         <ul>
           <li>Tuesday</li>
           <li>Thursday</li>
+          <li>Whenever is needed</li>
         </ul>
       </td>
     </tr>
