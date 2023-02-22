@@ -255,8 +255,8 @@
       <td>When you start JustJam, you get to choose a name for your character, but that's it. The original look is always the same, whether a boy or a girl and a farmer or a time traveler. Obviously this needs some work, and the story should be more focused on the main character.</td>
     </tr>
   </table>
-![Sprint 1 Results](https://github.com/[Brave-Lizard]/[justJam]/blob/[Gaming]/[StaffBackrooms]/sprintA.png?raw=true)
-![Sprint 2 Results](https://github.com/[Brave-Lizard]/[justJam]/blob/[Gaming]/[StaffBackrooms]/sprintB.png?raw=true)
-![Sprint 3 Results](https://github.com/[Brave-Lizard]/[justJam]/blob/[Gaming]/[StaffBackrooms]/sprintC.png?raw=true)
-![Sprint 4 Results](https://github.com/[Brave-Lizard]/[justJam]/blob/[Gaming]/[StaffBackrooms]/sprintD.png?raw=true)
-![Sprint 5 Results](https://github.com/[Brave=Lizard]/[justJam]/blob/[Gaming]/[StaffBackrooms]/sprintE.png?raw=true)
+![Sprint 1 Results](https://github.com/[Brave-Lizard]/[justJam]/blob/[Gaming]/StaffBackrooms/sprintA.png?raw=true)
+![Sprint 2 Results](https://github.com/[Brave-Lizard]/[justJam]/blob/[Gaming]/StaffBackrooms/sprintB.png?raw=true)
+![Sprint 3 Results](https://github.com/[Brave-Lizard]/[justJam]/blob/[Gaming]/StaffBackrooms/sprintC.png?raw=true)
+![Sprint 4 Results](https://github.com/[Brave-Lizard]/[justJam]/blob/[Gaming]/StaffBackrooms/sprintD.png?raw=true)
+![Sprint 5 Results](https://github.com/[Brave=Lizard]/[justJam]/blob/[Gaming]/StaffBackrooms/sprintE.png?raw=true)
