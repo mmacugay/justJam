@@ -1,5 +1,6 @@
 <h1>Just Jam</h1>
   <p>Pitch In the old century of the dark ages, on the coast of Italy, nothing is as it should be. The land is infested with living jam, and dotted by landmarks which should not exist. The player must leave the mainland of Italy and retreat to the paradise land of Elba.</p>
+  <p>The game: <a href="https://trinket.io/python/91201ae0a8?toggleCode=true">Click me!</a></p>
   <h2>Cast: </h2>
   <table>
     <th>Name
@@ -254,3 +255,8 @@
       <td>When you start JustJam, you get to choose a name for your character, but that's it. The original look is always the same, whether a boy or a girl and a farmer or a time traveler. Obviously this needs some work, and the story should be more focused on the main character.</td>
     </tr>
   </table>
+![Sprint 1 Results](https://github.com/[Brave-Lizard]/[justJam]/blob/[main]/image.png?raw=true)
+![Sprint 2 Results](https://github.com/[Brave-Lizard]/[justJam]/blob/[main]/image.png?raw=true)
+![Sprint 3 Results](https://github.com/[Brave-Lizard]/[justJam]/blob/[main]/image.png?raw=true)
+![Sprint 4 Results](https://github.com/[Brave-Lizard]/[justJam]/blob/[main]/image.png?raw=true)
+![Sprint 5 Results](https://github.com/[Brave=Lizard]/[justJam]/blob/[main]/image.png?raw=true)
