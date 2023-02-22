@@ -1,3 +1,4 @@
+from tkinter import *
 class Speak:
     def __init__ (self):
         self.__stage = 0
@@ -78,8 +79,8 @@ class Speak:
 
 def talk(character):
     #Conversation
-    wordsList = character.wordTake()
     juli = Speak()
+    wordsList = character.wordTake()
     topic = juli.getScene(character, wordsList)
     print(topic)
     relationshipBefore = character.getRelationship()
@@ -117,10 +118,13 @@ def display(relBef, response, relAft):
 
 def choice(choices):
     count = 0
+    choice = 0
     for option in choices:
-        print(choices[count])
+        print(str(count + 1) + ".) " + choices[count])
         count += 1
-    choice = int(input('1-5: '))
+    while choice < 1 or choice > 5:
+        if choice < 1 or choice > 5:
+            choice = int(input('Make a choice from 1-5: '))
     choice -= 1
     return choice
 
