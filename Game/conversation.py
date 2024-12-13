@@ -1,3 +1,4 @@
+from gui import *
 class Speak:
     def __init__ (self):
         self.__stage = 0

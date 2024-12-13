@@ -1,5 +1,7 @@
 import characters
 import conversation
+import tkinter
+import gui
 def story():
     #victorinoText = open(r'victorinoText').readlines()
     #victorino = characters.Character("Victorino", 2, 0, 10, victorinoText)
@@ -60,6 +62,20 @@ def story():
     print("From here on the story continues, but the game does not. Consider this a demo, or a random assignment a group of disorganized kids made. Either way, I hope you had fun, and that we got a good grade.")
 
 
+
+
+def main():
+    root = tkinter.Tk()
+    root.title("Just Jam")
+    root.geometry("250x300")
+    root.resizable(width=False, height=False)
+
+    gui.Gui(root)
+
+    #story()
+
+    root.mainloop()
+
     
-    
-story()
+if __name__ == "__main__":
+    main()
